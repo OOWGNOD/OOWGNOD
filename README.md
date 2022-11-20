@@ -1,5 +1,5 @@
 DONGWOO YU
-<a><img src="https://img.shields.io/badge/#F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>&nbsp 
+<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=OOWGNOD&count_private=true&theme=radical)
 <!--
 **OOWGNOD/OOWGNOD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
