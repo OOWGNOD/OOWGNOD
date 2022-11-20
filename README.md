@@ -1,8 +1,8 @@
 
 <div id="header" align="center">
 <img src="https://media.tenor.com/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="400" style="border-radius:30px; border:6px solid white; margin-bottom:30px"/></br>
-<a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
-<a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
+<!-- <a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
+<a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> -->
 <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=teammapa.ydw@gmail.com" target="_blank"><img src="https://img.shields.io/badge/teammapa.ydw@gmail.com-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
 <hr>
 <p style="font-size: 24px;">안녕하세요 👋 </br>프론트엔드 개발자 <b style="color: #8a2be2">유동우</b> 입니다</p>
