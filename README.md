@@ -1,15 +1,3 @@
-<style>
-  @font-face {
-    font-family: 'HBIOS-SYS';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-*{
-    font-family:"HBIOS-SYS";
-}
-</style>
 
 <div id="header" align="center">
 <img src="https://media.tenor.com/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="400" style="border-radius:30px; border:6px solid white; margin-bottom:30px"/></br>
