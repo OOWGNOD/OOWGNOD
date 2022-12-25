@@ -9,7 +9,7 @@
 </div>
 <hr>
 
-<div id="contents" align="center">
+<div id="contents">
 <p style="font-size:26px">🛠 Languages & Tools 🛠</p>
 <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"/>
 <img src="https://img.shields.io/badge/JQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"/>
