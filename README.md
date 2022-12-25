@@ -29,6 +29,7 @@
 <hr>
 
 ![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=OOWGNOD&theme=dark&background=000000)
+<br/>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OOWGNOD&layout=compact&theme=vision-friendly-dark)
 <br/>
 <a href="https://opgc.me/#/users/OOWGNOD" target="_blank"><img src="https://api.opgc.me/githubs/users/OOWGNOD/tag/?theme=basic" /></a>
