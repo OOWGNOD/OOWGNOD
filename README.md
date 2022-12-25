@@ -1,5 +1,5 @@
 
-<div id="header" align="center">
+<div id="header">
 <img src="https://media.tenor.com/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="400" style="border-radius:30px; border:6px solid white; margin-bottom:30px"/></br>
 <!-- <a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white"/></a>
 <a href="https://www.notion.so/Over-the-shoulder-learning-6709a37fe7c342c7b28721ed1a1679c2" target="_blank"><img src="https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a> -->
