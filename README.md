@@ -32,7 +32,6 @@
 <br/>
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OOWGNOD&layout=compact&theme=vision-friendly-dark)
 <br/>
-<a href="https://opgc.me/#/users/OOWGNOD" target="_blank"><img src="https://api.opgc.me/githubs/users/OOWGNOD/tag/?theme=basic" /></a>
 </div>
 
 <!--
