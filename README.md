@@ -12,7 +12,7 @@
 <div id="contents">
 <p style="font-size:26px">🛠 Languages & Tools 🛠</p>
 <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=TypeScript&logoColor=blue"/>
+<img src="https://img.shields.io/badge/Javascript-007acc?style=for-the-badge&logo=TypeScript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JQuery-0769AD?style=for-the-badge&logo=jQuery&logoColor=white"/>
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"/><br>
