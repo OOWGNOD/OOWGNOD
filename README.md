@@ -28,12 +28,6 @@
 <img src="https://img.shields.io/badge/styledComponents-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
 <hr>
 
-![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=OOWGNOD&theme=dark&background=000000)
-<br/>
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=OOWGNOD&layout=compact&theme=vision-friendly-dark)
-<br/>
-</div>
-
 <!--
 **OOWGNOD/OOWGNOD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
