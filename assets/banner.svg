@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 320">
   <defs>
     <linearGradient id="grad-sub" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.6"/>
@@ -7,11 +7,11 @@
   </defs>
 
   <!-- 전체 배경 -->
-  <rect width="600" height="320" rx="10" ry="10" fill="#1a1b26"/>
+  <rect width="840" height="320" rx="10" ry="10" fill="#1a1b26"/>
 
   <!-- 타이틀 바 -->
-  <rect width="600" height="38" rx="10" ry="10" fill="#24283b"/>
-  <rect y="10" width="600" height="28" fill="#24283b"/>
+  <rect width="840" height="38" rx="10" ry="10" fill="#24283b"/>
+  <rect y="10" width="840" height="28" fill="#24283b"/>
 
   <!-- 트래픽 라이트 -->
   <circle cx="22" cy="19" r="6" fill="#ff5f57"/>
@@ -19,47 +19,47 @@
   <circle cx="62" cy="19" r="6" fill="#28c840"/>
 
   <!-- 우측 상단 활성 표시 -->
-  <circle cx="578" cy="19" r="3" fill="#9ece6a" opacity="0.6">
+  <circle cx="818" cy="19" r="3" fill="#9ece6a" opacity="0.6">
     <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
   </circle>
 
   <!-- 타이틀 바 텍스트 -->
-  <text x="300" y="24" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#565f89" text-anchor="middle">OOWGNOD — zsh</text>
+  <text x="420" y="24" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#565f89" text-anchor="middle">OOWGNOD — zsh</text>
 
   <!-- 프롬프트 라인 1 -->
-  <text x="20" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#7aa2f7">~</text>
-  <text x="40" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#bb9af7">❯</text>
-  <text x="60" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#c0caf5">whoami</text>
+  <text x="24" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#7aa2f7">~</text>
+  <text x="40" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#bb9af7">❯</text>
+  <text x="56" y="76" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#c0caf5">whoami</text>
 
   <!-- 출력: 이름 -->
-  <text x="20" y="112" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#7dcfff">OOWGNOD</text>
-  <text x="120" y="112" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#565f89">// 제품 설계형 풀스택 엔지니어</text>
+  <text x="24" y="108" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#7dcfff">OOWGNOD</text>
+  <text x="100" y="108" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#565f89">// 제품 설계형 풀스택 엔지니어</text>
 
   <!-- 프롬프트 라인 2 -->
-  <text x="20" y="152" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#7aa2f7">~</text>
-  <text x="40" y="152" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#bb9af7">❯</text>
-  <text x="60" y="152" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#c0caf5">cat stack.txt</text>
+  <text x="24" y="148" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#7aa2f7">~</text>
+  <text x="40" y="148" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#bb9af7">❯</text>
+  <text x="56" y="148" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#c0caf5">cat stack.txt</text>
 
   <!-- 출력: 스택 -->
-  <text x="20" y="186" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="url(#grad-sub)" letter-spacing="2" opacity="0.9">Web · App · Backend · Web3 · AI</text>
+  <text x="24" y="178" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="url(#grad-sub)" letter-spacing="2" opacity="0.9">Web · App · Backend · Web3 · AI</text>
 
   <!-- 프롬프트 라인 3 -->
-  <text x="20" y="226" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#7aa2f7">~</text>
-  <text x="40" y="226" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#bb9af7">❯</text>
-  <text x="60" y="226" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#c0caf5">echo $PHILOSOPHY</text>
+  <text x="24" y="218" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#7aa2f7">~</text>
+  <text x="40" y="218" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#bb9af7">❯</text>
+  <text x="56" y="218" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#c0caf5">echo $PHILOSOPHY</text>
 
   <!-- 출력: 태그라인 -->
-  <text x="20" y="260" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#9ece6a">기능을 만들기 전에 구조를 설계합니다.</text>
+  <text x="24" y="250" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#9ece6a">기능을 만들기 전에 구조를 설계합니다.</text>
 
   <!-- 대기 커서 - 깜빡임 -->
-  <text x="20" y="300" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#7aa2f7">~</text>
-  <text x="40" y="300" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="20" fill="#bb9af7">❯</text>
-  <rect x="60" y="286" width="11" height="20" fill="#c0caf5">
+  <text x="24" y="290" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#7aa2f7">~</text>
+  <text x="40" y="290" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="14" fill="#bb9af7">❯</text>
+  <rect x="56" y="278" width="8" height="16" fill="#c0caf5">
     <animate attributeName="opacity" values="0;0.8;0.8;0" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
   <!-- 우측 시계 -->
-  <text x="575" y="300" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89" text-anchor="end" opacity="0.5">
+  <text x="815" y="290" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#565f89" text-anchor="end" opacity="0.5">
     ⏱
     <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite"/>
   </text>
