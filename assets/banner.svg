@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
+  <defs>
+    <linearGradient id="grad-sub" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 전체 배경 -->
+  <rect width="1200" height="260" rx="10" ry="10" fill="#1a1b26"/>
+
+  <!-- 타이틀 바 -->
+  <rect width="1200" height="36" rx="10" ry="10" fill="#24283b"/>
+  <rect y="10" width="1200" height="26" fill="#24283b"/>
+
+  <!-- 트래픽 라이트 -->
+  <circle cx="24" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="18" r="6" fill="#28c840"/>
+
+  <!-- 타이틀 바 텍스트 -->
+  <text x="600" y="22" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#565f89" text-anchor="middle">OOWGNOD — zsh</text>
+
+  <!-- 프롬프트 라인 1 -->
+  <text x="30" y="72" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
+  <text x="50" y="72" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
+  <text x="68" y="72" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#c0caf5">whoami</text>
+
+  <!-- 출력: 이름 -->
+  <text x="30" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7dcfff">OOWGNOD</text>
+  <text x="115" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89">// 제품 설계형 풀스택 엔지니어</text>
+
+  <!-- 프롬프트 라인 2 -->
+  <text x="30" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
+  <text x="50" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
+  <text x="68" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#c0caf5">cat stack.txt</text>
+
+  <!-- 출력: 스택 -->
+  <text x="30" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="url(#grad-sub)" letter-spacing="2" opacity="0.9">Web · App · Backend · Web3 · AI</text>
+
+  <!-- 프롬프트 라인 3 -->
+  <text x="30" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
+  <text x="50" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
+  <text x="68" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#c0caf5">echo $PHILOSOPHY</text>
+
+  <!-- 출력: 태그라인 -->
+  <text x="30" y="220" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#9ece6a">기능을 만들기 전에 구조를 설계합니다.</text>
+
+  <!-- 대기 커서 -->
+  <text x="30" y="248" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
+  <text x="50" y="248" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
+  <rect x="68" y="237" width="8" height="15" fill="#c0caf5" opacity="0.7"/>
+</svg>

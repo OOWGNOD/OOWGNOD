@@ -1,99 +1,91 @@
-<div align="center">
+<picture>
+  <img src="./assets/banner.svg" alt="OOWGNOD — 제품 설계형 풀스택 엔지니어" width="100%"/>
+</picture>
 
-<img src="https://media.tenor.com/LkQzw7k5DV4AAAAd/anime-hacking.gif" width="380" style="border-radius:24px; border:4px solid #eee; margin-bottom:30px"/>
+<br/>
 
-</div>
+## About
 
-```bash
-$ whoami
-유동우 | Product-Minded Fullstack Developer
-
-$ stack
-Web · App · Backend · Web3
-
-$ focus
-Architecture before implementation
-Design scalable systems
-Optimize product flows
-
-$ status
-Building products with system thinking
+```
+구조가 명확하면, 기능은 자연스럽게 따라온다.
 ```
 
----
+- 기능 중심이 아닌 **구조 중심** 개발
+- 구현 이전에 **제품 흐름 설계**를 우선
+- 확장성을 전제로 한 **아키텍처 설계**
+- AI를 설계 도구로 활용하여 **구조 검증과 개발 사이클을 가속**
 
-# 🧩 About
+<br/>
 
-기능을 구현하기 전에 **제품 구조와 사용자 흐름을 먼저 설계합니다.**
+## Stack
 
-- Web & App 통합 아키텍처 설계
-- NestJS 기반 백엔드 구조 설계
-- 인증 / 결제 / 상태관리 흐름 설계
-- Web3 인증 및 지갑 연동 구조 이해
-- 설계 단계에서 구조 검증 및 시뮬레이션 기반 의사결정
+**Frontend**
 
----
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=React&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=React&logoColor=61DAFB"/>
 
-# 🛠 Tech Stack
+**Backend**
 
-## 💻 Frontend
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=React&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=Next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=React&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-<img src="https://img.shields.io/badge/Recoil-0B2343?style=for-the-badge&logo=Atom&logoColor=white"/>
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=TailwindCSS&logoColor=white"/>
-<img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=NestJS&logoColor=white"/> <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"/> <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=GraphQL&logoColor=white"/>
 
----
+**Database**
 
-## ⚙ Backend
-<img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=NestJS&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeORM-FE0902?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=Prisma&logoColor=white"/>
-<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=Supabase&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white"/>
 
----
+**Web3**
 
-## 🗄 Database
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=PostgreSQL&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=Solidity&logoColor=white"/> <img src="https://img.shields.io/badge/Ethers.js-2535a0?style=flat-square&logo=Ethereum&logoColor=white"/> <img src="https://img.shields.io/badge/Hardhat-FFF100?style=flat-square&logo=Hardhat&logoColor=black"/> <img src="https://img.shields.io/badge/IPFS-65C2CB?style=flat-square&logo=IPFS&logoColor=white"/>
 
----
+**Infra**
 
-## ⛓ Web3
-<img src="https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=Web3.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Wallet_Auth-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=AmazonWebServices&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=GitHubActions&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=Vercel&logoColor=white"/>
 
----
+<br/>
 
-## ☁ Dev & Infra
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=AmazonAWS&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bun-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/CLI-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+## How I Build
 
----
+```
+설계 → 검증 → 구현 → 최적화
+```
 
-# 🧠 Intelligent Product Engineering
+- 인증 흐름을 제품 특성에 맞게 구조화
+- 컨트롤러 → 서비스 → 레포지토리 계층 분리, 역할과 책임을 명확히 정의
+- 공통 로직은 공유하되, 플랫폼별 차이는 어댑터 패턴으로 분리
+- 모듈 단위 설계로 기능 추가 시 기존 코드 변경을 최소화
+- 시퀀스 다이어그램, 상태 흐름도를 통해 구현 전 로직을 사전 검증
+- 코드 생성, 마이그레이션, 배포 파이프라인의 자동화를 설계 단계에서 고려
 
-제품 기획 단계에서부터 구조를 검증하고,  
-기능 단위가 아닌 시스템 단위로 설계합니다.
+<br/>
 
-- 시스템 아키텍처 비교 설계
-- 인증 / 결제 / 데이터 흐름 사전 검증
-- SaaS 모델 구조 분석 및 확장성 고려
-- 반복 개발 작업 최적화
-- Web & App 환경별 UX 흐름 최적화
+## Workflow
 
----
+```
+AI를 단순 코드 생성이 아닌, 제품 설계 전반의 사고 도구로 활용합니다.
+```
 
-# 📈 GitHub Activity
+- 아키텍처 설계 시 구조적 대안을 빠르게 탐색하고 검증
+- 설계 → 구현 사이의 간극을 줄여 개발 사이클을 압축
+- 반복적인 구현 패턴을 자동화하여 핵심 설계에 집중
+
+<br/>
+
+## Activity
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=OOWGNOD&show_icons=true&theme=radical" height="165"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=OOWGNOD&theme=radical" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=OOWGNOD&theme=tokyonight" alt="Profile Details" width="80%"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=OOWGNOD&theme=tokyonight" alt="Stats" height="165"/>
+  &nbsp;
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=OOWGNOD&theme=tokyonight&utcOffset=9" alt="Productive Time" height="165"/>
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+  <sub>기능을 만들기 전에 구조를 설계합니다.</sub>
 </div>
