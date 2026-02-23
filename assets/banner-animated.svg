@@ -4,6 +4,13 @@
       <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.6"/>
       <stop offset="100%" style="stop-color:#3fb950;stop-opacity:0.6"/>
     </linearGradient>
+    <linearGradient id="grad-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="50%" style="stop-color:#7aa2f7"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
   </defs>
 
   <!-- 전체 배경 -->
@@ -13,10 +20,18 @@
   <rect width="1200" height="36" rx="10" ry="10" fill="#24283b"/>
   <rect y="10" width="1200" height="26" fill="#24283b"/>
 
+  <!-- 타이틀 바 하단 스캔라인 -->
+  <rect y="35" width="1200" height="1" fill="url(#grad-line)" opacity="0.15"/>
+
   <!-- 트래픽 라이트 -->
   <circle cx="24" cy="18" r="6" fill="#ff5f57"/>
   <circle cx="44" cy="18" r="6" fill="#febc2e"/>
   <circle cx="64" cy="18" r="6" fill="#28c840"/>
+
+  <!-- 우측 상단 활성 표시 -->
+  <circle cx="1170" cy="18" r="3" fill="#9ece6a" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </circle>
 
   <!-- 타이틀 바 텍스트 -->
   <text x="600" y="22" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#565f89" text-anchor="middle">OOWGNOD — zsh</text>
@@ -30,26 +45,61 @@
   </g>
 
   <!-- 출력: 이름 -->
-  <text x="30" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7dcfff">OOWGNOD</text>
-  <text x="115" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89">// 제품 설계형 풀스택 엔지니어</text>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" fill="freeze" begin="0.6s"/>
+    <text x="30" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7dcfff">OOWGNOD</text>
+    <text x="115" y="100" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89">// 제품 설계형 풀스택 엔지니어</text>
+  </g>
 
   <!-- 프롬프트 라인 2 -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="0.8s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="1.2s"/>
     <text x="30" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
     <text x="50" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
     <text x="68" y="134" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#c0caf5">cat stack.txt</text>
   </g>
 
-  <!-- 출력: 스택 -->
-  <text x="30" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="url(#grad-sub)" letter-spacing="2" opacity="0">
-    Web · App · Backend · Web3 · AI
-    <animate attributeName="opacity" from="0" to="0.9" dur="0.5s" fill="freeze" begin="1.3s"/>
+  <!-- 출력: 스택 키워드 개별 페이드인 -->
+  <text x="30" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#58a6ff" letter-spacing="2" opacity="0">
+    Web
+    <animate attributeName="opacity" from="0" to="0.9" dur="0.3s" fill="freeze" begin="1.6s"/>
+  </text>
+  <text x="75" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89" opacity="0">
+    ·
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.2s" fill="freeze" begin="1.75s"/>
+  </text>
+  <text x="95" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7" letter-spacing="2" opacity="0">
+    App
+    <animate attributeName="opacity" from="0" to="0.9" dur="0.3s" fill="freeze" begin="1.9s"/>
+  </text>
+  <text x="140" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89" opacity="0">
+    ·
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.2s" fill="freeze" begin="2.05s"/>
+  </text>
+  <text x="160" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7" letter-spacing="2" opacity="0">
+    Backend
+    <animate attributeName="opacity" from="0" to="0.9" dur="0.3s" fill="freeze" begin="2.2s"/>
+  </text>
+  <text x="240" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89" opacity="0">
+    ·
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.2s" fill="freeze" begin="2.35s"/>
+  </text>
+  <text x="260" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#9ece6a" letter-spacing="2" opacity="0">
+    Web3
+    <animate attributeName="opacity" from="0" to="0.9" dur="0.3s" fill="freeze" begin="2.5s"/>
+  </text>
+  <text x="320" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#565f89" opacity="0">
+    ·
+    <animate attributeName="opacity" from="0" to="0.6" dur="0.2s" fill="freeze" begin="2.65s"/>
+  </text>
+  <text x="340" y="160" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7dcfff" letter-spacing="2" opacity="0">
+    AI
+    <animate attributeName="opacity" from="0" to="0.9" dur="0.3s" fill="freeze" begin="2.8s"/>
   </text>
 
   <!-- 프롬프트 라인 3 -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="2.0s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="3.2s"/>
     <text x="30" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
     <text x="50" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
     <text x="68" y="194" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#c0caf5">echo $PHILOSOPHY</text>
@@ -58,19 +108,26 @@
   <!-- 출력: 태그라인 -->
   <text x="30" y="220" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#9ece6a" opacity="0">
     기능을 만들기 전에 구조를 설계합니다.
-    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="2.5s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" fill="freeze" begin="3.6s"/>
   </text>
 
   <!-- 대기 프롬프트 -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="3.2s"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" fill="freeze" begin="4.2s"/>
     <text x="30" y="248" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#7aa2f7">~</text>
     <text x="50" y="248" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="13" fill="#bb9af7">❯</text>
   </g>
 
   <!-- 깜빡이는 커서 -->
   <rect x="68" y="237" width="8" height="15" fill="#c0caf5" opacity="0">
-    <animate attributeName="opacity" from="0" to="0" dur="3.2s" fill="freeze"/>
-    <animate attributeName="opacity" values="0;0.8;0;0.8;0" dur="1.2s" repeatCount="indefinite" begin="3.2s"/>
+    <animate attributeName="opacity" from="0" to="0" dur="4.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="1.2s" repeatCount="indefinite" begin="4.2s"/>
   </rect>
+
+  <!-- 우측 시계 -->
+  <text x="1140" y="248" font-family="'SF Mono', 'Fira Code', Consolas, monospace" font-size="11" fill="#565f89" text-anchor="end" opacity="0">
+    ⏱
+    <animate attributeName="opacity" from="0" to="0.4" dur="0.5s" fill="freeze" begin="4.2s"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="2s" repeatCount="indefinite" begin="4.5s"/>
+  </text>
 </svg>

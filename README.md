@@ -1,5 +1,5 @@
 <picture>
-  <img src="./assets/banner.svg" alt="OOWGNOD — 제품 설계형 풀스택 엔지니어" width="100%"/>
+  <img src="./assets/banner-animated.svg" alt="OOWGNOD — 제품 설계형 풀스택 엔지니어" width="100%"/>
 </picture>
 
 <br/>
