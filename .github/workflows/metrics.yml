@@ -74,14 +74,12 @@ jobs:
             }
           plugin_languages: yes
           plugin_languages_limit: 8
-          plugin_languages_details: percentage
-          plugin_languages_sections: most-used
 
-      # 3. 활동 시간대 (기존 productive-time 카드 대체)
+      # 3. 코드 변경량
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          filename: assets/metrics-habits.svg
+          filename: assets/metrics-lines.svg
           base: ""
           config_timezone: Asia/Seoul
           repositories: 100
@@ -99,8 +97,5 @@ jobs:
               --color-calendar-graph-day-L3-bg: #26a641;
               --color-calendar-graph-day-L4-bg: #39d353;
             }
-          plugin_habits: yes
-          plugin_habits_from: 100
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-          plugin_habits_days: 14
+          plugin_lines: yes
+          plugin_lines_sections: base
