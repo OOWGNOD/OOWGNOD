@@ -22,6 +22,8 @@ jobs:
           filename: assets/metrics.svg
           base: header, activity, community, repositories
           config_timezone: Asia/Seoul
+          repositories: 100
+          repositories_affiliations: owner, collaborator, organization_member
           extras_css: |
             svg { background: #0d1117; color: #8b949e; }
             h2, h3 { color: #58a6ff !important; }
@@ -46,6 +48,8 @@ jobs:
           filename: assets/metrics-languages.svg
           base: ""
           config_timezone: Asia/Seoul
+          repositories: 100
+          repositories_affiliations: owner, collaborator, organization_member
           extras_css: |
             svg { background: #0d1117; color: #8b949e; }
             h2, h3 { color: #58a6ff !important; }
@@ -71,6 +75,8 @@ jobs:
           filename: assets/metrics-habits.svg
           base: ""
           config_timezone: Asia/Seoul
+          repositories: 100
+          repositories_affiliations: owner, collaborator, organization_member
           extras_css: |
             svg { background: #0d1117; color: #8b949e; }
             h2, h3 { color: #58a6ff !important; }
@@ -85,6 +91,7 @@ jobs:
               --color-calendar-graph-day-L4-bg: #39d353;
             }
           plugin_habits: yes
-          plugin_habits_from: 200
+          plugin_habits_from: 100
           plugin_habits_charts: yes
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
+          plugin_habits_days: 14
