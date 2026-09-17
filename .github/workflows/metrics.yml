@@ -15,16 +15,7 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Token scope check (temporary)
-        env:
-          T: ${{ secrets.METRICS_TOKEN }}
-        run: |
-          echo "token set: $([ -n "$T" ] && echo yes || echo no) / len=${#T} / prefix=${T:0:4}"
-          curl -sI -H "Authorization: token $T" https://api.github.com/user | grep -iE "^HTTP|x-oauth-scopes|x-accepted" || true
-          echo "--- login:"; curl -s -H "Authorization: token $T" https://api.github.com/user | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('login'), d.get('message'))"
-          echo "--- org repos visible:"; curl -s -H "Authorization: token $T" "https://api.github.com/user/repos?affiliation=organization_member&per_page=100" | python3 -c "import sys,json;d=json.load(sys.stdin);print(len(d) if isinstance(d,list) else d)"
-
-      # 1. 프로필 요약 + 기여 캘린더 (기존 profile-details 카드 대체)
+      # 프로필 요약 + Activity + Community + 기여 캘린더
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
@@ -49,7 +40,3 @@ jobs:
           template: classic
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_lines: yes
-          plugin_lines_sections: base
