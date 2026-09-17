@@ -76,14 +76,6 @@ AI를 단순 코드 생성이 아닌, 제품 설계 전반의 사고 도구로 �
 
 <br/>
 
-<div align="center">
-  <img src="./assets/metrics-languages.svg" alt="Languages" width="42%"/>
-  &nbsp;
-  <img src="./assets/metrics-lines.svg" alt="Lines of code" width="42%"/>
-</div>
-
-<br/>
-
 ---
 
 <div align="center">
